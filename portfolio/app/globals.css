@@ -6,7 +6,8 @@
  
 }
  @layer{
- .bg{
-  @apply bg-["url("/assets/portfolio.jpg")"]
+ .center-logo{
+    @apply w-[200px] h-[200px] grid items-center justify-center rounded-[20px] bg-white;
+   
  }
  }

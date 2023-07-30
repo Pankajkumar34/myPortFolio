@@ -2,15 +2,16 @@ import React from 'react'
 import Image from 'next/image';
 function Skillicon({ img }) {
     return (
-     
-            <div className='w-[150px]'>
+
+        <div className='shadow p-2 m-auto'>
+            <div className='sm:h-[156px] sm:w-[154px] center-logo' >
                 <Image
-                className='bg-white m-[20px] rounded shadow p-2'
+                    className='w-[100px]'
                     src={img}
                     alt='Skills Image'
                 />
             </div>
-       
+        </div>
     )
 }
 

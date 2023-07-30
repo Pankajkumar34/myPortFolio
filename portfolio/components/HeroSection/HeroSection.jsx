@@ -12,8 +12,8 @@ function HeroSection() {
   return (
     <div style={{ background: "linear-gradient(3deg, black, rgb(40 192 209)) " }} className="pt-[100px] bg-cover bg-center bg-no-repeat " >
       <div className='container'>
-        <div className='mai-portfpoilo flex justify-center items-center'>
-          <div className='w-[40%] text-white'>
+        <div className='sm:block mai-portfpoilo flex justify-center items-center'>
+          <div className='sm:w-full w-[40%] text-white'>
             <h1 className='text-[50px]'>Hello everyOne!</h1>
             <p><span className='text-[#f26423]'>My Name is Pankaj Kumar</span> I am Mern Stack Devloper</p>
             <div>
@@ -31,7 +31,7 @@ function HeroSection() {
             </div>
 
           </div>
-          <div className='w-[500px]'>
+          <div className='sm:w-full w-[500px]'>
             {View}
           </div>
 

@@ -12,6 +12,7 @@ import Mongo from '../assets/mongo.png'
 import taiwind from '../assets/tailwiond.png'
 import less from '../assets/less.png'
 import express from '../assets/express.png'
+import bootstrap from '../assets/bootstrap.png'
 import pankaj from '../assets/pankaj.jpg'
 function Skills() {
 
@@ -20,53 +21,38 @@ function Skills() {
             <div className='container'>
                 <div className='text-center pt-[40px]'>
                     <h2 className='text-[40px]  text-[#f26439]' style={{ fontFamily: "fantasy" }}>Technical <span className='text-white'>Skills</span></h2>
-                    <div className='grid grid-cols-4 relative'>
-                        <div className='mt-[100px]'>
-                            <Skillicon img={HTML} />
-                        </div>
-                        <div className=''>
-                            <Skillicon img={JS} />
-                        </div>
-                        <div>
-                            <Skillicon img={Node} />
-                        </div>
-                        <div className='mt-[100px]'>
-                            <Skillicon img={react} />
-                        </div>
-                        <div>
-                            <Skillicon img={css} />
-                        </div>
-                        <div className=''>
-                            <Skillicon img={next} />
+                    <div className='sm:grid-cols-2 grid grid-cols-4 content-center relative'>
+                
+                                <Skillicon img={HTML} />
+                         
+                                <Skillicon img={JS} />
+                            
+                                <Skillicon img={Node} />
+                           
+                                <Skillicon img={react} />
+                            
+                        
+                                <Skillicon img={css} />
+                         
+                            
+                                <Skillicon img={next} />
 
-                        </div>
+                                <Skillicon img={mysql} />
+                           
+                           
+                                <Skillicon img={Mongo} />
+                         
 
-                        <div className=''>
-                            <Skillicon img={mysql} />
-                        </div>
-                        <div>
-                            <Skillicon img={Mongo} />
-                        </div>
-                        <div className='flex ml-[150px]'>
-                            <div className='ml-[150px]' >
+                         
                                 <Skillicon img={taiwind} />
 
-                            </div>
-
-                            <div className='ml-[150px]' >
+                   
 
                                 <Skillicon img={express} />
-                            </div>
+                           
 
-                        </div>
-
-                        <div className='mt-[100px] ml-[160px]' >
-
-                            <Skillicon img={less} />
-
-                        </div>
-
-
+                                <Skillicon img={less} />
+                                <Skillicon img={bootstrap} />
 
                     </div>
                 </div>
